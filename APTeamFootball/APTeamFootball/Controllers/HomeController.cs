@@ -13,16 +13,16 @@ namespace APTeamFootball.Controllers
 			return View();
 		}
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your application description page.";
+        public ActionResult About()
+        {
+            ViewBag.Message = "Find out more about how Premier League is organized";
 
-			return View();
-		}
+            return View();
+        }
 
-		public ActionResult Contact()
+            public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "Where to find us";
 
 			return View();
 		}

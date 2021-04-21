@@ -35,7 +35,7 @@ namespace APTeamFootball.Tests.Controllers
 			ViewResult result = controller.About() as ViewResult;
 
 			// Assert
-			Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+			Assert.AreEqual("Find out more about how Premier League is organized", result.ViewBag.Message);
 		}
 
 		[TestMethod]

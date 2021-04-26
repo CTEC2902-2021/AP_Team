@@ -1,0 +1,115 @@
+﻿@model APTeamFootball.Models.Team
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Team</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Draws)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Draws)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoalDiff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoalDiff)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoalsAgainst)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoalsAgainst)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoalsFor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoalsFor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Loss)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Loss)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MatchPlayed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MatchPlayed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PLTrophies)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PLTrophies)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Points)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Points)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wins)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TeamId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

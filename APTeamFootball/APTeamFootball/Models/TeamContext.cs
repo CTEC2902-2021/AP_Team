@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using APTeamFootball.Models;
 
 namespace APTeamFootball.Models
 {
@@ -19,6 +20,6 @@ namespace APTeamFootball.Models
         {
         }
 
-		public System.Data.Entity.DbSet<APTeamFootball.Models.Team> Teams { get; set; }
+		public DbSet<APTeamFootball.Models.Team> Teams { get; set; }
 	}
 }

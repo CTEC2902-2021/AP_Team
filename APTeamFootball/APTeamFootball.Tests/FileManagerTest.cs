@@ -7,14 +7,12 @@ using APTeamFootball.Models;
 
 namespace APTeamFootball.Tests
 {
-    /// <summary>
-    /// Summary description for FileManagerTest
-    /// </summary>
+
     [TestClass]
     public class FileManagerTest
     {
-        //private const string TEST_FILE_PATH = @"C:\Users\Sulur\Documents\Desktop\New folder\Week17-ErrorHandlingWebsite\ErrorProneWebsite.Tests\TestContent\TestContent.txt";
-        private const string TEST_FILE_PATH = @"C:\Users\2115\source\repos\CTEC2902-Labs-1\Week17-ErrorHandlingWebsite\ErrorProneWebsite.Tests\TestContent\TestContent.txt";
+        
+        private const string TEST_FILE_PATH = @"NEEDS TO BE CHANGED ACCORDING USER'S PATH";
         [TestMethod]
         public void TheFileManagerCanReadAFile()
         {

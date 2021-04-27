@@ -199,7 +199,7 @@
     <Compile Include="Models\PlayersDataInitialiser.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\TeamContext.cs" />
-    <Compile Include="Models\TeamsDataInitialiser.cs" />
+    <Compile Include="Models\TeamDataInitialiser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace APTeamFootball.Models
 {
-	public class TeamsDataInitialiser : DropCreateDatabaseAlways<TeamContext>
+	public class TeamDataInitialiser : DropCreateDatabaseAlways<TeamContext>
 	{
 		protected override void Seed(TeamContext context)
 		{
@@ -57,7 +57,7 @@ namespace APTeamFootball.Models
 			team3.Points = 56;
 			team3.Position = 3;
 			team3.Wins = 17;
-            context.Teams.Add(team3);
+			context.Teams.Add(team3);
 
 			Team team4 = new Team();
 			team3.TeamId = 4;
@@ -141,7 +141,7 @@ namespace APTeamFootball.Models
 			team3.Wins = 13;
 			context.Teams.Add(team8);
 
-			
+
 
 			Team team10 = new Team();
 			team3.TeamId = 10;

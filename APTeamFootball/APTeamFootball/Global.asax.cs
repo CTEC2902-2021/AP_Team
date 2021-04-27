@@ -22,7 +22,8 @@ namespace APTeamFootball
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Database.SetInitializer(new PlayersDataInitialiser());
-			Database.SetInitializer(new TeamsDataInitialiser());
+			Database.SetInitializer(new TeamDataInitialiser());
+
 		}
     }
 }

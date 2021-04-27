@@ -89,12 +89,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.Wins)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TeamId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TeamId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TeamId })
-        </td>
-    </tr>
+		<td>
+			
+			@Html.ActionLink("Details", "Details", new { id = item.TeamId }) |
+			
+</tr>
 }
 
 </table>

@@ -173,6 +173,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ManchasterCityPlayersController.cs" />
     <Compile Include="Controllers\PlayersController.cs" />
     <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Default.aspx.cs">
@@ -194,6 +195,9 @@
     <Compile Include="Models\FileManager.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ManchasterCityPlayers.cs" />
+    <Compile Include="Models\ManchasterCityPlayersContext.cs" />
+    <Compile Include="Models\ManchasterCityPlayersDataInitialiser.cs" />
     <Compile Include="Models\Players.cs" />
     <Compile Include="Models\PlayersContext.cs" />
     <Compile Include="Models\PlayersDataInitialiser.cs" />
@@ -272,6 +276,11 @@
     <Content Include="Views\Players\Details.cshtml" />
     <Content Include="Views\Players\Edit.cshtml" />
     <Content Include="Views\Players\Index.cshtml" />
+    <Content Include="Views\ManchasterCityPlayers\Create.cshtml" />
+    <Content Include="Views\ManchasterCityPlayers\Delete.cshtml" />
+    <Content Include="Views\ManchasterCityPlayers\Details.cshtml" />
+    <Content Include="Views\ManchasterCityPlayers\Edit.cshtml" />
+    <Content Include="Views\ManchasterCityPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104271121101_InitialCreate.resx">

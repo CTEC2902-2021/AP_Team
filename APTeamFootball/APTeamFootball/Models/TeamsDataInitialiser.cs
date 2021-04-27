@@ -59,6 +59,122 @@ namespace APTeamFootball.Models
 			team3.Wins = 17;
             context.Teams.Add(team3);
 
+			Team team4 = new Team();
+			team3.TeamId = 4;
+			team3.Name = "Chelsea";
+			team3.Manager = "Thomas Tuchel";
+			team3.Draws = 4;
+			team3.GoalDiff = 7;
+			team3.GoalsAgainst = 22;
+			team3.GoalsFor = 11;
+			team3.Loss = 4;
+			team3.MatchPlayed = 29;
+			team3.PLTrophies = 3;
+			team3.Points = 51;
+			team3.Position = 4;
+			team3.Wins = 14;
+			context.Teams.Add(team4);
+
+			Team team5 = new Team();
+			team3.TeamId = 5;
+			team3.Name = "West Ham United";
+			team3.Manager = "David Moyes";
+			team3.Draws = 4;
+			team3.GoalDiff = 7;
+			team3.GoalsAgainst = 22;
+			team3.GoalsFor = 11;
+			team3.Loss = 4;
+			team3.MatchPlayed = 29;
+			team3.PLTrophies = 3;
+			team3.Points = 46;
+			team3.Position = 5;
+			team3.Wins = 13;
+			context.Teams.Add(team5);
+
+			Team team6 = new Team();
+			team3.TeamId = 6;
+			team3.Name = "Liverpool";
+			team3.Manager = "Jürgen Klopp";
+			team3.Draws = 4;
+			team3.GoalDiff = 7;
+			team3.GoalsAgainst = 12;
+			team3.GoalsFor = 11;
+			team3.Loss = 2;
+			team3.MatchPlayed = 18;
+			team3.PLTrophies = 3;
+			team3.Points = 46;
+			team3.Position = 6;
+			team3.Wins = 14;
+			context.Teams.Add(team6);
+
+
+			Team team7 = new Team();
+			team3.TeamId = 7;
+			team3.Name = "Everton";
+			team3.Manager = "Carlo Ancelotti";
+			team3.Draws = 3;
+			team3.GoalDiff = 7;
+			team3.GoalsAgainst = 15;
+			team3.GoalsFor = 10;
+			team3.Loss = 2;
+			team3.MatchPlayed = 28;
+			team3.PLTrophies = 3;
+			team3.Points = 45;
+			team3.Position = 7;
+			team3.Wins = 13;
+			context.Teams.Add(team7);
+
+
+			Team team8 = new Team();
+			team3.TeamId = 8;
+			team3.Name = "Tottenham Hotspur";
+			team3.Manager = "Ryan Mascon";
+			team3.Draws = 5;
+			team3.GoalDiff = 3;
+			team3.GoalsAgainst = 15;
+			team3.GoalsFor = 10;
+			team3.Loss = 2;
+			team3.MatchPlayed = 28;
+			team3.PLTrophies = 3;
+			team3.Points = 45;
+			team3.Position = 8;
+			team3.Wins = 13;
+			context.Teams.Add(team8);
+
+			
+
+			Team team10 = new Team();
+			team3.TeamId = 10;
+			team3.Name = "Arsenal";
+			team3.Manager = "Mikel Arteta";
+			team3.Draws = 5;
+			team3.GoalDiff = 6;
+			team3.GoalsAgainst = 10;
+			team3.GoalsFor = 10;
+			team3.Loss = 2;
+			team3.MatchPlayed = 29;
+			team3.PLTrophies = 3;
+			team3.Points = 41;
+			team3.Position = 10;
+			team3.Wins = 12;
+			context.Teams.Add(team10);
+
+			Team team9 = new Team();
+			team3.TeamId = 9;
+			team3.Name = "Aston Villa";
+			team3.Manager = "Dean Smith";
+			team3.Draws = 5;
+			team3.GoalDiff = 3;
+			team3.GoalsAgainst = 15;
+			team3.GoalsFor = 10;
+			team3.Loss = 2;
+			team3.MatchPlayed = 27;
+			team3.PLTrophies = 3;
+			team3.Points = 42;
+			team3.Position = 9;
+			team3.Wins = 12;
+			context.Teams.Add(team9);
+
 			base.Seed(context);
 		}
 	}

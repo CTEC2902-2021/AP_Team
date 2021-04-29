@@ -23,7 +23,8 @@ namespace APTeamFootball
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Database.SetInitializer(new PlayersDataInitialiser());
 			Database.SetInitializer(new TeamDataInitialiser());
+            Database.SetInitializer(new AstonVillaPlayersDataInitialiser());
 
-		}
+        }
     }
 }

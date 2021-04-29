@@ -171,6 +171,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AstonVillaPlayersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PlayersController.cs" />
@@ -191,6 +192,9 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AstonVillaPlayers.cs" />
+    <Compile Include="Models\AstonVillaPlayersContext.cs" />
+    <Compile Include="Models\AstonVillaPlayersDataInitialiser.cs" />
     <Compile Include="Models\FileManager.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -272,6 +276,11 @@
     <Content Include="Views\Players\Details.cshtml" />
     <Content Include="Views\Players\Edit.cshtml" />
     <Content Include="Views\Players\Index.cshtml" />
+    <Content Include="Views\AstonVillaPlayers\Create.cshtml" />
+    <Content Include="Views\AstonVillaPlayers\Delete.cshtml" />
+    <Content Include="Views\AstonVillaPlayers\Details.cshtml" />
+    <Content Include="Views\AstonVillaPlayers\Edit.cshtml" />
+    <Content Include="Views\AstonVillaPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104271121101_InitialCreate.resx">

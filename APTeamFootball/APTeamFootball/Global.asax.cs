@@ -25,6 +25,7 @@ namespace APTeamFootball
 			Database.SetInitializer(new TeamDataInitialiser());
 			Database.SetInitializer(new ManchasterCityPlayersDataInitialiser());
             Database.SetInitializer(new AstonVillaPlayersDataInitialiser());
+            Database.SetInitializer(new TottenhamHotsputPlayersDataInitialiser());
         }
     }
 }

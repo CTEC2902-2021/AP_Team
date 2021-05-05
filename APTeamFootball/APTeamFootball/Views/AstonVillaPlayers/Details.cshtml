@@ -1,20 +1,16 @@
-﻿@model APTeamFootball.Models.Players
+﻿@model APTeamFootball.Models.AstonVillaPlayers
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<h2> Details </h2>
 
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
 <body>
     <div>
-        <h4>Players</h4>
+        <h4>AstonVillaPlayers</h4>
         <hr />
         <dl class="dl-horizontal">
             <dt>
@@ -76,7 +72,7 @@
         </dl>
     </div>
     <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.PlayersId }) |
+        @Html.ActionLink("Edit", "Edit", new { id = Model.AstonVillaPlayersId }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
 </body>

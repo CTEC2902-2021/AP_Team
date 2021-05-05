@@ -1,11 +1,11 @@
-﻿@model IEnumerable<APTeamFootball.Models.Players>
+﻿@model IEnumerable<APTeamFootball.Models.AstonVillaPlayers>
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Arsenal Players</h2>
+<h2>Aston Villa Players</h2>
 
 <p>
 
@@ -62,7 +62,7 @@
             </td>
             <td>
 
-                @Html.ActionLink("Details", "Details", new { id = item.PlayersId })
+                @Html.ActionLink("Details", "Details", new { id = item.AstonVillaPlayersId })
 
             </td>
         </tr>

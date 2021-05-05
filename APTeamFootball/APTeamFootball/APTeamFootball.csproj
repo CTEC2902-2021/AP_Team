@@ -172,6 +172,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AstonVillaPlayersController.cs" />
+    <Compile Include="Controllers\EvertonPlayersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ManchasterCityPlayersController.cs" />
@@ -197,6 +198,9 @@
     <Compile Include="Models\AstonVillaPlayers.cs" />
     <Compile Include="Models\AstonVillaPlayersContext.cs" />
     <Compile Include="Models\AstonVillaPlayersDataInitialiser.cs" />
+    <Compile Include="Models\EvertonPlayers.cs" />
+    <Compile Include="Models\EvertonPlayersContext.cs" />
+    <Compile Include="Models\EvertonPlayersDataInitialiser.cs" />
     <Compile Include="Models\FileManager.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -299,6 +303,11 @@
     <Content Include="Views\TottenhamHotspurPlayers\Details.cshtml" />
     <Content Include="Views\TottenhamHotspurPlayers\Edit.cshtml" />
     <Content Include="Views\TottenhamHotspurPlayers\Index.cshtml" />
+    <Content Include="Views\EvertonPlayers\Create.cshtml" />
+    <Content Include="Views\EvertonPlayers\Delete.cshtml" />
+    <Content Include="Views\EvertonPlayers\Details.cshtml" />
+    <Content Include="Views\EvertonPlayers\Edit.cshtml" />
+    <Content Include="Views\EvertonPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104271121101_InitialCreate.resx">

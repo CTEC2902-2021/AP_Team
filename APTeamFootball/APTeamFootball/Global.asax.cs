@@ -29,6 +29,9 @@ namespace APTeamFootball
             Database.SetInitializer(new EvertonPlayersDataInitialiser());
             Database.SetInitializer(new LiverpoolPlayersDataInitialiser());
             Database.SetInitializer(new WestHamUnitedPlayersDataInitialiser());
-        }
+			Database.SetInitializer(new ManchesterUnitedPlayersDataInitialiser());
+			Database.SetInitializer(new LeicesterPlayersDataInitialiser());
+			Database.SetInitializer(new ChelseaPlayersDataInitialiser());
+		}
     }
 }

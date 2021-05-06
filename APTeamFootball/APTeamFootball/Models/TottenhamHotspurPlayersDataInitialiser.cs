@@ -113,7 +113,7 @@ namespace APTeamFootball.Models
             play9.Comments = "From Ireland";
             play9.Goals = 0;
             play9.Name = "Matt Doherty";
-            play9.Number = 0;
+            play9.Number = 44;
             play9.Position = "Midfielder";
             play9.DOB = Convert.ToDateTime("1992-01-16");
 

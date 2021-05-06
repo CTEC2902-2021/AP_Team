@@ -180,6 +180,7 @@
     <Compile Include="Controllers\PlayersController.cs" />
     <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Controllers\TottenhamHotspurPlayersController.cs" />
+    <Compile Include="Controllers\WestHamUnitedPlayersController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,6 +221,9 @@
     <Compile Include="Models\TottenhamHotspurPlayers.cs" />
     <Compile Include="Models\TottenhamHotspurPlayersContext.cs" />
     <Compile Include="Models\TottenhamHotspurPlayersDataInitialiser.cs" />
+    <Compile Include="Models\WestHamUnitedPlayers.cs" />
+    <Compile Include="Models\WestHamUnitedPlayersContext.cs" />
+    <Compile Include="Models\WestHamUnitedPlayersDataInitialiser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -317,6 +321,11 @@
     <Content Include="Views\LiverpoolPlayers\Details.cshtml" />
     <Content Include="Views\LiverpoolPlayers\Edit.cshtml" />
     <Content Include="Views\LiverpoolPlayers\Index.cshtml" />
+    <Content Include="Views\WestHamUnitedPlayers\Create.cshtml" />
+    <Content Include="Views\WestHamUnitedPlayers\Delete.cshtml" />
+    <Content Include="Views\WestHamUnitedPlayers\Details.cshtml" />
+    <Content Include="Views\WestHamUnitedPlayers\Edit.cshtml" />
+    <Content Include="Views\WestHamUnitedPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104271121101_InitialCreate.resx">

@@ -172,11 +172,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AstonVillaPlayersController.cs" />
+    <Compile Include="Controllers\ChelseaPlayersController.cs" />
     <Compile Include="Controllers\EvertonPlayersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LeicesterPlayersController.cs" />
     <Compile Include="Controllers\LiverpoolPlayersController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ManchasterCityPlayersController.cs" />
+    <Compile Include="Controllers\ManchesterUnitedPlayersController.cs" />
     <Compile Include="Controllers\PlayersController.cs" />
     <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Controllers\TottenhamHotspurPlayersController.cs" />
@@ -200,11 +203,17 @@
     <Compile Include="Models\AstonVillaPlayers.cs" />
     <Compile Include="Models\AstonVillaPlayersContext.cs" />
     <Compile Include="Models\AstonVillaPlayersDataInitialiser.cs" />
+    <Compile Include="Models\ChelseaPlayers.cs" />
+    <Compile Include="Models\ChelseaPlayersContext.cs" />
+    <Compile Include="Models\ChelseaPlayersDataInitialiser.cs" />
     <Compile Include="Models\EvertonPlayers.cs" />
     <Compile Include="Models\EvertonPlayersContext.cs" />
     <Compile Include="Models\EvertonPlayersDataInitialiser.cs" />
     <Compile Include="Models\FileManager.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\LeicesterPlayers.cs" />
+    <Compile Include="Models\LeicesterPlayersContext.cs" />
+    <Compile Include="Models\LeicesterPlayersDataInitialiser.cs" />
     <Compile Include="Models\LiverpoolPlayers.cs" />
     <Compile Include="Models\LiverpoolPlayersContext.cs" />
     <Compile Include="Models\LiverpoolPlayersDataInitialiser.cs" />
@@ -212,6 +221,9 @@
     <Compile Include="Models\ManchasterCityPlayers.cs" />
     <Compile Include="Models\ManchasterCityPlayersContext.cs" />
     <Compile Include="Models\ManchasterCityPlayersDataInitialiser.cs" />
+    <Compile Include="Models\ManchesterUnitedPlayers.cs" />
+    <Compile Include="Models\ManchesterUnitedPlayersContext.cs" />
+    <Compile Include="Models\ManchesterUnitedPlayersDataInitialiser.cs" />
     <Compile Include="Models\Players.cs" />
     <Compile Include="Models\PlayersContext.cs" />
     <Compile Include="Models\PlayersDataInitialiser.cs" />
@@ -326,6 +338,21 @@
     <Content Include="Views\WestHamUnitedPlayers\Details.cshtml" />
     <Content Include="Views\WestHamUnitedPlayers\Edit.cshtml" />
     <Content Include="Views\WestHamUnitedPlayers\Index.cshtml" />
+    <Content Include="Views\ManchesterUnitedPlayers\Create.cshtml" />
+    <Content Include="Views\ManchesterUnitedPlayers\Delete.cshtml" />
+    <Content Include="Views\ManchesterUnitedPlayers\Details.cshtml" />
+    <Content Include="Views\ManchesterUnitedPlayers\Edit.cshtml" />
+    <Content Include="Views\ManchesterUnitedPlayers\Index.cshtml" />
+    <Content Include="Views\LeicesterPlayers\Create.cshtml" />
+    <Content Include="Views\LeicesterPlayers\Delete.cshtml" />
+    <Content Include="Views\LeicesterPlayers\Details.cshtml" />
+    <Content Include="Views\LeicesterPlayers\Edit.cshtml" />
+    <Content Include="Views\LeicesterPlayers\Index.cshtml" />
+    <Content Include="Views\ChelseaPlayers\Create.cshtml" />
+    <Content Include="Views\ChelseaPlayers\Delete.cshtml" />
+    <Content Include="Views\ChelseaPlayers\Details.cshtml" />
+    <Content Include="Views\ChelseaPlayers\Edit.cshtml" />
+    <Content Include="Views\ChelseaPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104271121101_InitialCreate.resx">

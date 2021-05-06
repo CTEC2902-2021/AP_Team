@@ -206,6 +206,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\LiverpoolPlayers.cs" />
     <Compile Include="Models\LiverpoolPlayersContext.cs" />
+    <Compile Include="Models\LiverpoolPlayersDataInitialiser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ManchasterCityPlayers.cs" />
     <Compile Include="Models\ManchasterCityPlayersContext.cs" />
